@@ -1,5 +1,5 @@
---select*from PortfolioProject..COVID_Vaccinations
---order by 3,4
+-------------------------------SQL Code on My SQL Server for analyzing the COVID Cases and casualties around the world----------------------------------
+
 
 select location, date, total_cases, new_cases, total_deaths, population 
 from PortfolioProject..COVID_Deaths
