@@ -70,7 +70,7 @@ join PortfolioProject..COVID_Vaccinations vac
 where dea.continent is not null 
 )
 select*, (cumulative_vaccination/population)*100 as Cumulative_percent
-from PopvsVac      --------the select statement makes the 'with popvsvac' works and vie-versa
+from PopvsVac      
 
 ---TEMP Table
 
